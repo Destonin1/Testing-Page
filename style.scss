@@ -1015,12 +1015,12 @@ body {
         bottom: 0;
         left: 0;
         z-index: 89;
-        transform: translateY(-100%);
+        transform: scale(0);
         transition: 0.3s;
     }
 
     .menu-active {
-        transform: translateY(0);
+        transform: scale(1);
     }
 
     .menu__list {
